@@ -18,6 +18,9 @@ const Main = () => {
                 <View style={styles.buttonContainer}>
                     <Text style={styles.buttonText} >Ingresar</Text>
                 </View>
+                <View style={styles.buttonContainer1}>
+                    <Text style={styles.buttonText1} >¡regístrate!</Text>
+                </View>
             </View>
         </SafeAreaView>          
     )
@@ -40,8 +43,24 @@ const styles=StyleSheet.create({
         color:'#353153',
         fontSize:18,
         fontWeight:'bold'
-    }
-
+    },
+    buttonContainer1:{
+        height:50,
+        marginHorizontal:60,
+        justifyContent:'center',
+        alignItems:'center',
+        marginTop:10,
+        borderRadius:50,
+        borderWidth:3,
+        borderColor:'#353153',
+        backgroundColor:'#353153'
+    },
+    buttonText1:{
+        textTransform:'uppercase',
+        color:'#fff',
+        fontSize:18,
+        fontWeight:'bold'
+    },
 })
 
 export default Main
